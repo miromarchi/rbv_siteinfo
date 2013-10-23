@@ -10,6 +10,7 @@ dependencies[] = date_api
 dependencies[] = strongarm
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:2
+features[variable][] = configurable_timezones
 features[variable][] = date_api_use_iso8601
 features[variable][] = date_default_timezone
 features[variable][] = date_first_day
