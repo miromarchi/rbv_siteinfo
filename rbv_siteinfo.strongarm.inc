@@ -56,7 +56,7 @@ function rbv_siteinfo_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_slogan';
-  $strongarm->value = 'Insieme siamo una rete: la società civile';
+  $strongarm->value = 'Insieme siamo una rete';
   $export['site_slogan'] = $strongarm;
 
   $strongarm = new stdClass();
